@@ -8,12 +8,12 @@ const Form = () => {
             type="text"
             name="floating_first_name"
             id="floating_first_name"
-            className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-white appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
+            className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b border-white appearance-none  focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
             placeholder=" "
             required
           />
           <label
-            for="floating_first_name"
+            htmlFor="floating_first_name"
             className="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 left-1 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-[#D6EEE8] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             First name
@@ -24,12 +24,12 @@ const Form = () => {
             type="text"
             name="floating_last_name"
             id="floating_last_name"
-            className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-white appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
+            className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b border-white appearance-none  focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
             placeholder=" "
             required
           />
           <label
-            for="floating_last_name"
+            htmlFor="floating_last_name"
             className="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 left-1 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-[#D6EEE8] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Last name
@@ -44,12 +44,12 @@ const Form = () => {
             type="text"
             name="floating_first_name"
             id="floating_first_name"
-            className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-white appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
+            className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b border-white appearance-none  focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
             placeholder=" "
             required
           />
           <label
-            for="floating_first_name"
+            htmlFor="floating_first_name"
             className="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 left-1 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-[#D6EEE8] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Company
@@ -60,12 +60,12 @@ const Form = () => {
             type="text"
             name="floating_last_name"
             id="floating_last_name"
-            className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-white appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
+            className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b border-white appearance-none  focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
             placeholder=" "
             required
           />
           <label
-            for="floating_last_name"
+            htmlFor="floating_last_name"
             className="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 left-1 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-[#D6EEE8] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Role
@@ -80,12 +80,12 @@ const Form = () => {
             type="text"
             name="floating_first_name"
             id="floating_first_name"
-            className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-white appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
+            className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b border-white appearance-none  focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
             placeholder=" "
             required
           />
           <label
-            for="floating_first_name"
+            htmlFor="floating_first_name"
             className="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 left-1 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-[#D6EEE8] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Country
@@ -96,12 +96,12 @@ const Form = () => {
             type="text"
             name="floating_last_name"
             id="floating_last_name"
-            className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-white appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
+            className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b border-white appearance-none  focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
             placeholder=" "
             required
           />
           <label
-            for="floating_last_name"
+            htmlFor="floating_last_name"
             className="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 left-1 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-[#D6EEE8] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Email
@@ -117,8 +117,9 @@ const Form = () => {
             name="reason_for_approach"
             className="w-full bg-transparent text-white border-b border-white py-2 pr-8 focus:outline-none focus:border-white appearance-none"
             required
+            defaultValue="" // This is where the default option is set
           >
-            <option value="" disabled selected>
+            <option value="" disabled>
               Reason For Approach (Select One)*
             </option>
             <option value="option1">Option 1</option>
@@ -146,12 +147,12 @@ const Form = () => {
           type="text"
           name="floating_first_name"
           id="floating_first_name"
-          className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-white appearance-none dark:text-white focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
+          className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b border-white appearance-none  focus:outline-none focus:ring-0 focus:border-[#D6EEE8] peer"
           placeholder=" "
           required
         />
         <label
-          for="floating_first_name"
+          htmlFor="floating_first_name"
           className="peer-focus:font-medium absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 left-1 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-[#D6EEE8] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
         >
           Your Message*

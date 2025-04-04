@@ -1,8 +1,9 @@
+import Image from "next/image"
 import Form from "./Form"
 
 const JoinTheMovement = () => {
   return (
-    <div className="bg-[#102F45] py-10">
+    <div className="bg-[#102F45] py-10 relative">
       <div className="container mx-auto text-center px-4">
         <h2 className="text-3xl font-bold text-white mb-4">
           Join the Movement
@@ -19,6 +20,13 @@ const JoinTheMovement = () => {
           <Form />
         </div>
       </div>
+      <Image
+        src="/footer-box.png"
+        width={1000}
+        height={300}
+        className="w-full max-w-5xl absolute bottom-0 left-0 right-0 mx-auto"
+        alt="Join the Movement Footer Box"
+      />
     </div>
   )
 }
