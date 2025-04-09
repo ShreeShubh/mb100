@@ -11,7 +11,7 @@ const HeroSection = () => {
       </div> */}
 
       {/* card 2 */}
-      <div className="min-h-screen bg-[url('/heroBanner.png')] bg-cover bg-center bg-no-repeat flex flex-col">
+      <div className="min-h-screen bg-[url('/banner-image.png')] bg-cover bg-center bg-no-repeat flex flex-col">
         <div className="py-2 md:py-4 bg-[#102F45] text-center px-4">
           <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#E68E46] leading-tight">
             Second Annual MB100 India Convening | 15-16 April 2025

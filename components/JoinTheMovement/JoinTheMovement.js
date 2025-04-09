@@ -16,7 +16,7 @@ const JoinTheMovement = () => {
           ecosystems.
         </p>
 
-        <div className="w-full max-w-6xl mx-auto">
+        <div className="w-full max-w-6xl mx-auto z-50 relative">
           <Form />
         </div>
       </div>
