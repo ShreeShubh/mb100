@@ -240,7 +240,7 @@ const Form = () => {
           <select
             id="reason"
             name="reason"
-            className="w-full bg-transparent text-white border-b border-white py-2 pr-8 focus:outline-none focus:border-white appearance-none"
+            className="w-full bg-transparent text-sm text-white border-b border-white py-2 pr-8 focus:outline-none focus:border-white"
             value={formData.reason}
             onChange={handleChange}
           >
@@ -251,7 +251,7 @@ const Form = () => {
             <option value="celebrate">Celebrate</option>
             <option value="capacitate">Capacitate</option>
           </select>
-          <svg
+          {/* <svg
             className="absolute right-2 top-1/2 transform -translate-y-1/2 w-4 h-4 text-white pointer-events-none"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -262,7 +262,7 @@ const Form = () => {
             strokeLinejoin="round"
           >
             <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
+          </svg> */}
           {errors.reason && (
             <p className="text-red-500 text-xs mt-1 text-left">
               {errors.reason}
