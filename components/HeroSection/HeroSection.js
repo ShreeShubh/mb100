@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 
 const HeroSection = () => {
@@ -13,9 +15,16 @@ const HeroSection = () => {
       {/* card 2 */}
       <div className="min-h-screen bg-[url('/banner-image.png')] bg-cover bg-center bg-no-repeat flex flex-col">
         <div className="py-2 md:py-4 bg-[#102F45] text-center px-4">
-          <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#E68E46] leading-tight">
+          <span
+            onClick={() => {
+              document.getElementById("upcoming-events")?.scrollIntoView({
+                behavior: "smooth",
+              })
+            }}
+            className="text-base cursor-pointer sm:text-lg md:text-xl lg:text-2xl text-[#E68E46] leading-tight"
+          >
             Second Annual MB100 India Convening | 15-16 April 2025
-          </h1>
+          </span>
         </div>
 
         <div className="container w-full mx-auto mt-auto px-4">
