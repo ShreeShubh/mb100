@@ -13,7 +13,7 @@ const HeroSection = () => {
       </div> */}
 
       {/* card 2 */}
-      <div className="min-h-screen bg-[url('/banner-image.png')] bg-cover bg-center bg-no-repeat flex flex-col">
+      <div className="min-h-screen bg-[url('/bannerImg.png')] bg-cover bg-center bg-no-repeat flex flex-col">
         <div className="py-2 md:py-4 bg-[#102F45] text-center px-4">
           <span
             onClick={() => {
