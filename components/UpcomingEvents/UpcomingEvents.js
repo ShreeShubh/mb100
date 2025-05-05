@@ -7,7 +7,7 @@ const UpcomingEvents = () => {
       <div className="bg-[#D6EEE8] py-10">
         <div className="container mx-auto px-4 w-full">
           <h2 className="text-3xl font-semibold text-[#102F45] text-center md:text-left">
-            Upcoming Events
+            Events
           </h2>
 
           <div className="flex flex-col md:flex-row items-center gap-5 mt-5">
