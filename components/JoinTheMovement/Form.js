@@ -63,7 +63,7 @@ const Form = () => {
 
     try {
       const response = await axios.post(
-        "https://docs.cms.org.in/wp-json/contact-form-7/v1/contact-forms/11225/feedback",
+        "https://docs.cms.org.in/wp-json/contact-form-7/v1/contact-forms/10249/feedback",
         payload,
         {
           headers: {
@@ -89,7 +89,7 @@ const Form = () => {
       setIsSubmitting(false)
     }
   }
-
+  console.log(formData)
   return (
     <form className="container mx-auto" onSubmit={handleSubmit}>
       {/* Firstname and Lastname */}
